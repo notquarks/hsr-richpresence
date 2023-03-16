@@ -22,7 +22,7 @@ namespace hsr_richpresence
         public HSRservice()
         {
             InitializeComponent();
-            client = new DiscordRpcClient("1085800515511799818");
+            client = new DiscordRpcClient("1085848800448483358");
 
         }
 
@@ -48,9 +48,13 @@ namespace hsr_richpresence
                         Assets = new Assets()
                         {
                             LargeImageKey = "hsr",
-                            LargeImageText = "hsr"
+                            LargeImageText = "H:SR"
                         },
-                        
+                        Timestamps = new Timestamps()
+                        {
+                            Start = DateTime.UtcNow
+                        }
+
                     });
                 }
                 else
